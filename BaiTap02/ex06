@@ -1,0 +1,104 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4
+
+}
+
+/* Global */
+.container{
+    padding: 2px 30px 0 100px;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0 0 0 0;
+
+}
+
+
+
+/* Header **/
+header{
+    background-color:rgb(41, 35, 35);
+    border-bottom: 4px inset rgb(255, 7, 7);
+    padding-top: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color:blueviolet;
+    text-transform: uppercase;
+
+}
+
+header li{
+    display: inline;
+    padding-right: 10px;
+    font-size: 17px;
+}
+
+header #branding{
+    background-color: rgb(41, 35, 35);
+    height: 20px;
+
+}
+
+header #branding h1{
+    background-color: rgb(41, 35, 35);
+    color:blueviolet;
+    padding-top: 20px;
+
+}
+
+header nav{
+    position: inherit;
+    transform: translate(0);
+    opacity: 1;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    display: flex;
+    font-size: 20px;
+}
+
+header .highlight, header .current a{
+    color:blue;
+
+}
+
+header a:hover{
+    color:blue;
+
+}
+
+/* Showcase */
+#showcase{
+  background-image:url(https://4.bp.blogspot.com/-HeLxjkHnkMU/UZCLtr3Ab8I/AAAAAAAAIkA/QAtVz6Q5-gI/s1600/hinh-anh-song-bien-6.jpg);
+  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
+    background-size: 1980px 400px;
+}   
+
+#showcase h1{
+    text-align: center;
+    font-size: 40px;
+    color: blueviolet;
+    padding: 30px 0 0 0;
+}
+
+#showcase p{
+   text-align:center;
+   color:blueviolet;
+   padding-bottom: 150px;
+}
+
+
+footer{
+    color: blueviolet;
+  background-color:rgb(248, 7, 7);
+  text-align: center;
+  padding: 15px 0 15px 0;
+
+}
