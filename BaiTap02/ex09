@@ -1,0 +1,165 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4
+}
+
+/* Global */
+.container{
+    padding: 1px 20px 0 100px;
+}
+
+ul{
+    list-style: none;
+    padding: 0 0 0 0;
+}
+
+.button_1{
+    height: 43px;
+    width: 90px;
+    background-color:red;
+    color: #de9e9e;
+  
+}
+
+.dark{
+    background-color: azure;
+    padding: 15px 15px 15px 15px;
+}
+
+/* Header **/
+header{
+    background-color:rgb(17, 2, 2);
+    border-bottom: 4px inset rgb(227, 16, 16);
+    padding-top: 0px;
+}
+
+header a{
+    text-decoration: none;
+    color:blueviolet;
+    text-transform: uppercase;
+}
+
+header li{
+    display: inline;
+    padding-right: 10px;
+    font-size: 17px;
+}
+
+header #branding{
+    background-color: rgb(41, 35, 35);
+    height: 20px;
+
+}
+
+header #branding h1{
+    background-color: rgb(41, 35, 35);
+    color:blueviolet;
+    padding-top: 31px;
+
+}
+
+header nav{
+    position: inherit;
+    transform: translate(0);
+    opacity: 1;
+    justify-content: flex-end;
+    display: flex;
+    font-size: 20px;
+
+}
+
+header .highlight, header .current a{
+    color:blue;
+}
+
+header a:hover{
+    color:blue;
+}
+
+/* Showcase */
+#showcase{
+    background-image:url(https://th.bing.com/th/id/OIP.w4td8XxjOFAAc6bhPy_VOQHaEK?pid=ImgDet&rs=1);
+    background-repeat: no-repeat; 
+    background-size: 1560px 400px;
+    padding: 0 0 10px 0;
+}
+
+#showcase h1{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    padding: 30px 0 0 0;
+}
+
+#showcase p{
+    text-align:center;
+    color:red;
+    padding-bottom: 150px;
+}
+
+/* Newsletter */
+#newsletter{
+  background-color: rgb(230, 96, 123);
+  
+  
+}
+
+#newsletter h1{
+  color: antiquewhite;
+    transform: translatey(22px);
+}
+
+#newsletter form {
+    transform: translatey(-40px);
+  padding-left: 64%;
+
+}
+
+#newsletter input[type="email"]{
+    line-height: 1.5;   
+    padding: 10px 150px 11px 0px;
+    display: inline-block;
+
+}
+/* Boxes */
+#boxes{
+    text-align: center;
+    font-size: 15px;
+}
+
+#boxes .box{
+    display: inline-block; 
+    vertical-align: top; 
+    width: 50%; 
+    padding-top: 12px;
+}
+
+#boxes .box img{
+    width: 30%;
+}
+/* Sidebar */
+aside#sidebar{
+    position: absolute;
+    top: 250px; 
+    right: 0px;
+    width: 300px;
+    margin-right: 150px;    
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    padding-right: 50px;
+}
+
+/* Main-col */
+article#main-col{
+  padding-right: 50%;
+}
+
+footer{
+    color: rgb(13, 234, 234);
+    background-color:rgb(48, 20, 20);
+    text-align: center;
+    padding: 15px 0 15px 0; 
+}
